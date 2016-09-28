@@ -1,0 +1,49 @@
+@import "base/sanitize";
+@import "font-awesome/scss/font-awesome.scss";
+body {
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  font-size: 1.5em;
+}
+section img {
+  max-width: 100%;
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #E6E6E6;
+  transition: border 0.25s ease;
+  &:hover {
+    border: 10px solid #E6E6E6;
+  }
+}
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 600px;
+  padding:0em 1em 4em;
+  text-align: center;
+  color:#F8F9FA;
+  background: #42A5F5;
+}
+.master {
+  background: #26C6DA;
+}
+.follower {
+  background: #5C6BC0;
+}
+.mates {
+  background: #4DB6AC;
+}
+i {
+  padding: 10px;
+  transition: color 0.3s;
+  &:hover {
+    color:#212121;
+    cursor: pointer;
+  }
+}
